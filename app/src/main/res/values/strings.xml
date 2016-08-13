@@ -1,0 +1,74 @@
+<resources>
+    <!-- 1. Main Activity -->
+    <string name="title_activity_settings" translatable="false">Ustawienia</string>
+    <string name="main_activity_settings" translatable="false">Ustawienia</string>
+    <string name="main_about" translatable="false">O aplikacji</string>
+    <string name="main_activity_reload_news" translatable="false">Odświeżam listę ogłoszeń&#8230;&#8230;&#8230;</string>
+    <string name="main_activity_no_internet" translatable="false">Brak połączenia z internetem lub wystąpił błąd podczas pobierania danych ze strony internetowej.\nSprawdź stan połączenia sieciowego.</string>
+
+    <!-- 1.1 Main Activity -->
+    <string name="main_activity_app_name" translatable="false">Ogłoszenia WMP</string>
+    <string name="app_name" translatable="false">Ogłoszenia WMP</string>
+    <string name="main_activity_notifier_title" translatable="false">Nowe ogłoszenie.</string>
+    <string name="main_activity_notifier_text" translatable="false">Nowe ogłoszenie na stronie </string>
+
+    <!-- 2. Settings Activity -->
+    <string name="settings_general" translatable="false">Ogólne</string>
+    <string name="settings_notifications" translatable="false">Powiadomienia</string>
+    <string name="settings_sync" translatable="false">Synchronizacja</string>
+
+    <!-- 2.1 General Settings -->
+    <string name="settings_enable_euksw" translatable="false">Obsługa e.uksw.edu.pl</string>
+    <string name="settings_enable_euksw_desc" translatable="false">Pobiera komunikaty (w tym informacje o ocenach zadań) ze strony e.uksw.edu.pl. Wymagane jest podanie danych logowania.</string>
+    <string name="settings_login" translatable="false">Nr indeksu</string>
+    <string name="settings_password" translatable="false">Hasło</string>
+
+    <!-- 2.2 Notifications Settings -->
+    <string name="settings_new_message_notifications" translatable="false">Pow. o nowych ogłoszeniach</string>
+    <string name="settings_ringtone" translatable="false">Dzwonek</string>
+    <string name="settings_ringtone_silent" translatable="false">Wyciszony</string>
+    <string name="settings_vibrate" translatable="false">Wibracje</string>
+
+    <!-- 2.3 Sync Settings -->
+    <string name="settings_sync_frequency" translatable="false">Częstotliwość synchronizacji</string>
+    <string-array name="settings_sync_frequency_titles">
+        <item>co 15 minut</item>
+        <item>co 30 minut</item>
+        <item>co 1 godzinę</item>
+        <item>co 3 godziny</item>
+        <item>co 6 godzin</item>
+        <item>raz dziennie</item>
+        <item>nigdy</item>
+    </string-array>
+    <string-array name="settings_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>1440</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- 3. About Settings-->
+    <string name="title_activity_about_settings" translatable="false">O aplikacji</string>
+    <string name="title_text" translatable="false">Aplikacja ma na celu pomoc studentom UKSW w informowaniu o poszczególnych komunikatach zamieszczanych na różnych stronach internetowych.\n\nObecnie aplikacja pobiera informacje ze stron:\n-wmp.uksw.edu.pl\n-e-wmp.uksw.edu.pl.\n\nWersja aplikacji 1.0.0.0 z dnia 08.04.2016 roku.\n\nAutor: Paweł Roszatycki</string>
+
+    <!-- 4. Categories -->
+    <string name="categories_name_empty" translatable="false">Pusty argument name.</string>
+    <string name="categories_name_error" translatable="false">Błędny argument name.</string>
+
+    <!-- 5. Announcement -->
+    <string name="announcement_date_empty" translatable="false">Pusty argument date.</string>
+    <string name="announcement_date_error" translatable="false">Błędny argument date.</string>
+    <string name="announcement_time_empty" translatable="false">Pusty argument time.</string>
+    <string name="announcement_time_error" translatable="false">Błędny argument time.</string>
+    <string name="announcement_author_empty" translatable="false">Pusty argument author.</string>
+    <string name="announcement_author_error" translatable="false">Pole author ma powyżej 200 znaków.</string>
+    <string name="announcement_category1_empty" translatable="false">Pusty argument category1.</string>
+    <string name="announcement_category2_empty" translatable="false">Pusty argument category2.</string>
+    <string name="announcement_category3_empty" translatable="false">Pusty argument category3.</string>
+    <string name="announcement_category4_empty" translatable="false">Pusty argument category4.</string>
+    <string name="announcement_category5_empty" translatable="false">Pusty argument category5.</string>
+    <string name="announcement_description_empty" translatable="false">Pusty argument description.</string>
+</resources>
